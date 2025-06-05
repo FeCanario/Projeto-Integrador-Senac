@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle,rgba(40, 102, 110, 1) 0%, rgba(255,255, 255, 1) 100%);
+  color: #333;
+  margin: 0;
+  padding-top: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #28666E;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+header .container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+main {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+th, td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+th {
+  background-color: #28666E
+;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+tr:hover {
+  background-color: #e0f2fe;
+  cursor: pointer;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#grafico, #mapa {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+
+#mapa {
+  height: 2000px;
+  width: 100%;
+  
+  
+}
+
+.proposta-link {
+  color: #28666E;  
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: #f5f5dc;  
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.proposta-link:hover {
+  color: #ffffff;
+  background-color: #28666E;  
+}
+
+
+footer {
+  background-color: #28666E;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 -1px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.rodape{
+    background-color: #28666E;
+    color: white;
+
+}	
